@@ -13,7 +13,7 @@ function getRandom(){
 
 function isLucky(pokemon1, pokemonTour){
     let aleatoire = getRandom()
-    if (aleatoire >= pokemon1[pokemonTour][4]){
+    if (aleatoire <= pokemon1[pokemonTour][4]){
         attackPokemon(pokemonTour, pokemon1)
 
     }
